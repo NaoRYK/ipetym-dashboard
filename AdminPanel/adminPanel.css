@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   color: #fff;
+  text-align: center;
 }
 #upload-options {
   margin-top: 2rem;
@@ -116,3 +117,13 @@
     background-color: #005fb2;  
     border-color: #005fb2;
 } 
+
+
+@media (max-width:780px) {
+
+  .info-container input {
+
+    width: auto;
+   
+  }
+}
