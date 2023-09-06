@@ -75,3 +75,20 @@
     background-color: white;
     border-color: #0a58ca;
 }
+
+
+@media (max-width:780px) {
+
+    #login-form input {
+  
+      width: auto;
+     
+    }
+    #login-box{
+        width: auto;
+        padding: 1rem;
+    }
+    #navLogin ul li{
+        margin-inline: 0px !important;
+    }
+  }
